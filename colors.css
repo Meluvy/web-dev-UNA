@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Antic);
+/*font-family: 'Antic', sans-serif;*/
+
+body {
+  background-color: #000;
+  font-family: 'Antic', sans-serif;
+  margin: 0px; 
+  padding: 0px;}
+  
+#page {
+  background-color: #403c3b;
+  margin: 0px auto 0px auto;
+  position: relative;
+  text-align: center;
+  max-width: 480px;
+  margin: 20px auto;}
+  
+h1 {
+  background-image: url(http://www.javascriptbook.com/code/c07/images/kinglogo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  /*text-indent: -1000%;*/
+  height: 75px;
+  line-height: 75px;
+  width: 117px;
+  margin: 0px auto 0px auto;
+  padding: 30px 10px 20px 10px;}
+  
+h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  display: inline-block;
+  margin: 0px 0px 23px 0px;}
+  
+ul {
+  border:none;
+  padding: 0px;
+  margin: 0px;}
+
+li {
+  display: flex;
+  background-color: #ec8b68;
+  color: #fff;
+  border-top: 1px solid #fe9772;
+  border-bottom: 1px solid #9f593f;
+  font-size: 24px;
+  letter-spacing: .05em;
+  list-style-type: none;
+  text-shadow: 2px 2px 1px #9f593f;
+  text-align: left;
+  height: 50px;
+  padding-left: 1em;
+  padding-top: 10px;}
+
+.cool {
+  background-color: #6cc0ac;
+  color: #fff;
+  text-shadow: 2px 2px 1px #3b6a5e;
+  border-top: 1px solid #7ee0c9;
+  border-bottom: 1px solid #3b6a5e;}
+  
+.hot {
+  background-color: #d7666b;
+  color: #fff;
+  text-shadow: 2px 2px 1px #914141;
+  border-top: 1px solid #e99295;
+  border-bottom: 1px solid #914141;}
+
+.trash {
+	width: 30px; 
+	height: 30px; 
+	margin-right: 30px; 
+	background-image: url("http://www.iconsdb.com/icons/download/black/x-mark-3-24.png");
+	background-position: center, right; 
+	background-repeat: no-repeat; 
+	cursor: pointer; 
+	opacity: 0.3; 
+	transition: opacity 0.5s;
+}
+
+.trash:hover {
+	opacity: 1; 
+	transition: opacity 0.5s; 
+}
+
+
+  
+.favorite {
+  background-image: url('http://www.javascriptbook.com/code/c07/images/icon-heart.png');
+  background-position: center right;
+  background-repeat: no-repeat;}
+
